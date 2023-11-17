@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MediasPonderadas",
+      "request": "launch",
+      "mainClass": "MediasPonderadas",
+      "projectName": "BeCrowd_7901c489"
+    },
+    {
+      "type": "java",
+      "name": "RestoDe2",
+      "request": "launch",
+      "mainClass": "RestoDe2",
+      "projectName": "BeCrowd_7901c489"
+    },
+    {
+      "type": "java",
+      "name": "ParImpar",
+      "request": "launch",
+      "mainClass": "ParImpar",
+      "projectName": "BeCrowd_7901c489"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "BeCrowd_7901c489"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Main",
