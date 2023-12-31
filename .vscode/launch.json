@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "main",
+      "request": "launch",
+      "mainClass": "main",
+      "projectName": "BeCrowd_7901c489"
+    },
+    {
+      "type": "java",
+      "name": "Experiencias",
+      "request": "launch",
+      "mainClass": "Experiencias",
+      "projectName": "BeCrowd_7901c489"
+    },
+    {
+      "type": "java",
       "name": "MediasPonderadas",
       "request": "launch",
       "mainClass": "MediasPonderadas",
