@@ -1,80 +1,106 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "type": "java",
-      "name": "main",
-      "request": "launch",
-      "mainClass": "main",
-      "projectName": "BeCrowd_7901c489"
-    },
-    {
-      "type": "java",
-      "name": "Experiencias",
-      "request": "launch",
-      "mainClass": "Experiencias",
-      "projectName": "BeCrowd_7901c489"
-    },
-    {
-      "type": "java",
-      "name": "MediasPonderadas",
-      "request": "launch",
-      "mainClass": "MediasPonderadas",
-      "projectName": "BeCrowd_7901c489"
-    },
-    {
-      "type": "java",
-      "name": "RestoDe2",
-      "request": "launch",
-      "mainClass": "RestoDe2",
-      "projectName": "BeCrowd_7901c489"
-    },
-    {
-      "type": "java",
-      "name": "ParImpar",
-      "request": "launch",
-      "mainClass": "ParImpar",
-      "projectName": "BeCrowd_7901c489"
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "Main",
-      "projectName": "BeCrowd_7901c489"
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "Main",
-      "projectName": "BeCrowd_eaf8c39a"
-    },
-    {
-      "type": "java",
-      "name": "ParesDeCinco",
-      "request": "launch",
-      "mainClass": "ParesDeCinco",
-      "projectName": "BeCrowd_eaf8c39a"
-    },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
+    "version": "0.2.0",
+    "configurations": [
         {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "BeCrowd_7901c489"
+        },
+        {
+            "type": "java",
+            "name": "Experiencias",
+            "request": "launch",
+            "mainClass": "Experiencias",
+            "projectName": "BeCrowd_7901c489"
+        },
+        {
+            "type": "java",
+            "name": "MediasPonderadas",
+            "request": "launch",
+            "mainClass": "MediasPonderadas",
+            "projectName": "BeCrowd_7901c489"
+        },
+        {
+            "type": "java",
+            "name": "RestoDe2",
+            "request": "launch",
+            "mainClass": "RestoDe2",
+            "projectName": "BeCrowd_7901c489"
+        },
+        {
+            "type": "java",
+            "name": "ParImpar",
+            "request": "launch",
+            "mainClass": "ParImpar",
+            "projectName": "BeCrowd_7901c489"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "BeCrowd_7901c489"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "BeCrowd_eaf8c39a"
+        },
+        {
+            "type": "java",
+            "name": "ParesDeCinco",
+            "request": "launch",
+            "mainClass": "ParesDeCinco",
+            "projectName": "BeCrowd_eaf8c39a"
+        },
+        {
+            "name": "C/C++ Runner: Debug Session",
+            "type": "cppdbg",
+            "request": "launch",
+            "args": [],
+            "stopAtEntry": false,
+            "externalConsole": true,
+            "cwd": ".",
+            "program": "build/Debug/outDebug",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "C/C++: gcc.exe build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "C:/MinGW/bin",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: gcc.exe build active file"
         }
-      ]
-    }
-  ]
+    ]
 }
