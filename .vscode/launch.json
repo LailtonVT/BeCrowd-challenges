@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VariasNotasComValidacao",
+            "request": "launch",
+            "mainClass": "VariasNotasComValidacao",
+            "projectName": "BeCrowd_7901c489"
+        },
+        {
+            "type": "java",
+            "name": "DividindoXporY",
+            "request": "launch",
+            "mainClass": "DividindoXporY",
+            "projectName": "BeCrowd_7901c489"
+        },
+        {
+            "type": "java",
             "name": "main",
             "request": "launch",
             "mainClass": "main",
